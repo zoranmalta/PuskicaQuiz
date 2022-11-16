@@ -1,0 +1,31 @@
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar div {
+	padding: 12px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar div:hover {
+	background-color: #000;
+}
+
+.active {
+	background-color: #04aa6d;
+}
+
+@media screen and (max-width: 600px) {
+	.navbar {
+		display: inline-block;
+	}
+	.navbar div {
+		float: none;
+		display: block;
+	}
+}
